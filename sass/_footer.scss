@@ -1,0 +1,26 @@
+.footer {
+    background-color: $first;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 12px;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $second;
+    padding: 12px;
+    border-radius: 12px;
+}
+.footer__title {
+    color: #eee;
+    font-weight: 400;
+}
+.location {
+    color: #eee;
+}
+.location [class*="icon-"]::before {
+    position: relative;
+    top: 2px;
+    right: 6px;
+}

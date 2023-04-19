@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: $first;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.header__logo {
+    color: $light;
+    font-weight: 400;
+}
+.location__address, .location__phone {
+    color: $light;
+    padding-bottom: 12px;
+}
+.header__location [class*="icon-"]::before {
+    position: relative;
+    top: 2px;
+    right: 6px;
+} 
